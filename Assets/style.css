@@ -1,0 +1,22 @@
+:root {
+
+}
+
+* {
+    background-color: mediumaquamarine; 
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#contact-form-formatting {    
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    color: white;
+    background-color:#98a1a7;
+    width: 40%;
+    padding: 20px;
+    border: 10px solid #545e64;
+    box-sizing: border-box;
+    }
