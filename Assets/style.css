@@ -1,38 +1,44 @@
 :root {
-
+  --font-color: black; 
+  --background-gray: #53575a;
+  --brightness: white;
 }
 
 * {
     background-color: rgb(168, 238, 215); 
+}
 
+h1 {
+    font-family:monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
 }
 
 .nav-design {
-
     background-color: #53575a;
-    
     overflow: hidden;
-    
     }
     
 .nav-design a {
-    
     float: right;
-
     background-color:#53575a;
-    
     color:black;
-    
     text-align: center;
-    
     padding: 40px 50px;
-    
     text-decoration: none;
-    
     font-size: 30px;
-
     font-family: Arial;
-    
     }
     
 .nav-design a:hover {
@@ -47,8 +53,8 @@
 
 #contact-form-formatting {    
     position: absolute;
-    left: 450px;
-    top: 400px;
+    left: 520px;
+    top: 300px;
     color: rgb(0, 0, 0);
     background-color:#98a1a7;
     width: 40%;
