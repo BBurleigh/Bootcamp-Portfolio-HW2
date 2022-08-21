@@ -3,20 +3,78 @@
 }
 
 * {
-    background-color: mediumaquamarine; 
-
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(168, 238, 215); 
 
 }
+
+.nav-design {
+
+    background-color: #53575a;
+    
+    overflow: hidden;
+    
+    }
+    
+.nav-design a {
+    
+    float: right;
+
+    background-color:#53575a;
+    
+    color:black;
+    
+    text-align: center;
+    
+    padding: 40px 50px;
+    
+    text-decoration: none;
+    
+    font-size: 30px;
+
+    font-family: Arial;
+    
+    }
+    
+.nav-design a:hover {
+    background-color: rgb(227, 114, 250);
+    color: #000000;
+    }
+    
+.nav-design a.active {
+    background-color: rgb(227, 114, 250);
+    color: white;
+    }
 
 #contact-form-formatting {    
     position: absolute;
     left: 450px;
     top: 400px;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color:#98a1a7;
     width: 40%;
     padding: 20px;
-    border: 10px solid #545e64;
     box-sizing: border-box;
+    border-radius: 20px;
+    border: 6px solid #53575a;
     }
+
+input, textarea {
+    background-color:rgb(255, 255, 255)
+}
+
+label, p {
+    background-color:#98a1a7;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.contact-text-box {
+    float: right;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    body, nav {
+        flex-direction: column;
+    }
+}

@@ -19,46 +19,60 @@
 <body>
 
     <h1> Burleigh's Coding Portfolio</h1>
-  
-      <nav> 
-  
-        <ul>
-  
-          <li> <a href="./homepage.html"> Homepage</a> </li>
-  
-          <li> <a href="./bio.html"> Bio </a> </li>
-  
-          <li> <a href="./contact.html"> Make Contact </a> </li>
-  
-        </ul>  
-  
-      </nav>
 
-      <form id="contact-form-formatting">
-        <p>
-          If you are interested in finding the role that best suits you in a
-          highly diverse and inclusive work environment, fill out out the
-          information about. A representative will contact you by email within
-          24 - 48 hours.
-        </p>
+      <section>
+
+        <nav class="nav-design"> 
+  
+          <ul>
+  
+            <li> <a href="./contact.html"> Make Contact </a> </li>
+  
+            <li> <a href="./bio.html"> Bio </a> </li>
+
+            <li> <a href="wip.html"> WIPs</a> </li>
+  
+            <li> <a href="./homepage.html"> Homepage</a> </li>
+  
+          </ul>  
+  
+        </nav>
+
+      </section>
+
+      <section class="input-position">
+
+        <form id="contact-form-formatting">
+          <p>
+          If you would like to discuss freelance work or reach out for another matter, then the first step is to fill out your information below.  Then, indicate your intent in the text box.  Last, hit "Make Contact".  I'll get back to you between 24 - 48 hours.
+          </p>
         <br />
+        <label for="Enter Message" class="contact-text-box">Enter Your Message Below</label>
+        <br />
+        <div>
+        <textarea class="contact-text-box" cols="65" rows="12" placeholder="Type your message here"> </textarea>
+        </div>
         <label for="first name">First Name</label>
         <br />
-        <input type="text" />
+        <input type="text" placeholder="Your preferred name"/>
         <br />
         <br />
         <label for="last name">Last Name</label>
         <br />
-        <input type="text" />
+        <input type="text" placeholder="Last name"/>
         <br />
         <br />
         <label for="email address">Email</label>
         <br />
-        <input type="text" />
+        <input type="text" placeholder="Enter your email"/>
         <br />
+        <br />
+        
         <input type="submit" value="Make Contact" />
-      </form>
+        </form>
+
       
+     </section>
   </body>
 
 
