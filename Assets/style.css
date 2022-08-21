@@ -37,8 +37,8 @@ p {
 .nav-design {
     background-color: #53575a;
     overflow: hidden;
-    border-style: dashed;
-    border-width: 5px;
+    border-style: groove;
+    border-width: 8px;
     border-color: #98a1a7;
     }
     
@@ -48,7 +48,7 @@ p {
     color: black;
     text-align: center;
     padding: 40px 50px;
-    text-decoration: none;
+    text-decoration: underline overline #98a1a7;
     font-size: 30px;
     font-family: Arial;
     }
@@ -62,6 +62,16 @@ p {
     background-color: rgb(227, 114, 250);
     color: white;
     }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 5px groove #53575a;
+    padding: 5px;
+    border-radius: 50%;
+}
 
 .float-left {
         float: left;
@@ -80,8 +90,9 @@ p {
 }
 
 #contact-form-formatting {    
-    justify-content: space-around;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(0, 0, 0);
     background-color:#98a1a7;
     width: 40%;
