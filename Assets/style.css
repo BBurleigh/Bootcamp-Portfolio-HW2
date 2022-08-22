@@ -1,6 +1,6 @@
 :root {
-  --font-color: black; 
-  --background-gray: #53575a;
+  --dark: black; 
+  --gray: #53575a;
   --brightness: white;
   --light-gray: #98a1a7;
 }
@@ -11,7 +11,7 @@
 }
 
 h1 {
-    font-family: monospace;
+    font-family: monospace, sans-serif;
     font-size: 25px;
     font-weight: bold;
     color: black;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 25px;
     text-align: center;
@@ -53,7 +53,7 @@ p {
     padding: 40px 50px;
     text-decoration: none;
     font-size: 30px;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     }
     
 .nav-design a:hover {
@@ -74,6 +74,25 @@ img {
     border: 5px groove #53575a;
     padding: 5px;
     border-radius: 50%;
+}
+
+h3 {
+    font-family: monospace, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 7px;
+}
+
+#WIP-image {
+    border-radius: 10px;
+    background-color: #98a1a7;
+}
+
+.work-in-progress {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .float-left {
