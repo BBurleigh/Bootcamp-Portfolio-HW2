@@ -168,8 +168,19 @@ label, p {
     margin-left: 500px;
 }
 
+@media screen and (max-width: 1175px) {
+    .contact-text-box {
+        width: 60%;
+        height: 75%;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .nav-design {
+    .nav-design, input {
         flex-direction: column;
+    }
+    .contact-text-box {
+        width: 50%;
+        height: 50%;
     }
 }
