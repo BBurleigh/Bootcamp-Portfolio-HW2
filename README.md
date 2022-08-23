@@ -2,7 +2,7 @@
 
 ##Description
 
-We were instructed to create a portfolio website to showcase our growing coding skills. There are sections where a user can see my avatar, a navigation bar, my WIPs, my bio, and an input form that one can use to contact me.
+We were instructed to create a portfolio website to showcase our growing coding skills. There are sections where a user can see my avatar and a navigation bar that will scroll them down the page to my projects/WIPs, mini bio, and a way to contact me through an input form. The other files that are labeled WIP.html, bio.html, and contact.html are not in use (disconnected from homepage html page for the requirements of the project).
 
 ##Installation
 
