@@ -19,3 +19,7 @@ Aside from my instructor and TA, I pulled bits of code and information from w3sc
 ##License
 
 None.
+
+---
+permalink: /index.html
+---
